@@ -11,19 +11,19 @@
 </head>
 
 <body>
-    <form name="form" onsubmit="return validations()">
+    <form id= "form" onsubmit="validations()">
+        <h1>Registration</h1>
         <div class="input-control">
             <label for="first-name">Enter first name</label>
             <input id = "first-name" type="text" name="first-name" required>
-            <input type="submit">
             <div class="error"></div>
         </div>
         <div class="input-control">
-            <label for="first-name">Enter first name</label>
-            <input id = "first-name" type="text" name="first-name" required>
-            <input type="submit">
+            <label for="email">Enter Email ID</label>
+            <input id = "email" type="email" name="email" required>
             <div class="error"></div>
         </div>
+        <button type="submit">Submit</button>
     </form>
 </body>
 
