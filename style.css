@@ -1,0 +1,12 @@
+body{
+    background-image: url(images/8ef0699cce7efc4c1d58aeeab4f6be30.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
