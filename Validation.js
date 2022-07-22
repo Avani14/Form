@@ -21,6 +21,7 @@ const validations= () => {
     if (phoneNumber == "" || !phoneRegex.test(phoneNumber)) {
         window.alert("Please enter valid phone number")  
     }
+    //UC-5
     const passRegex = RegExp("^(?=.*[A-Z])(?=.*[0-9])(?=.{8,}$)[a-zA-Z0-9]*[@#$%^&-+=()][a-zA-Z0-9]*$")
     if (password == "" || !passRegex.test(password)) {
         window.alert("Please enter valid password")    
